@@ -15,8 +15,14 @@
   background-color: blueviolet;
 }
 
+<<<<<<< HEAD
 .category {
   border-radius: 10px;
+=======
+.category{
+    border-radius: 10px;
+
+>>>>>>> e5657732a70f61fa14502342cebd9c80f1e5f6bd
 }
 .category__btn p {
   color: gray;
@@ -79,6 +85,7 @@
   border-radius: 0 0 10px 10px;
 }
 
+<<<<<<< HEAD
 .filter {
   background-color: #fff;
 }
@@ -196,3 +203,32 @@ input::-webkit-slider-thumb {
   display: flex;
   justify-content: space-between;
 }
+=======
+.filter{
+    background-color: #fff;
+    height: auto;
+}
+.bl{
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    border-left:5px solid orange ;
+    margin-bottom: 5px;
+    
+}
+.bl p{
+    padding-left: 20px;
+}
+.sx{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+#exampleRadios{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.ratings{
+    text-align: center;
+}
+
+>>>>>>> e5657732a70f61fa14502342cebd9c80f1e5f6bd
