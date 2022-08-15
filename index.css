@@ -14,9 +14,73 @@
 .right{
     background-color: blueviolet;
 }
+
 .category{
-    background-color: chocolate;
+    border-radius: 10px;
 }
+.category__btn p{
+    color: gray;
+    transition: 0.3s;
+    padding-bottom: 0px;
+    font-size: 24px;
+    cursor: pointer;
+    
+    
+}
+.category__btn i{
+    color: orangered;
+    font-size: 24px;
+}
+.category:hover p{
+    color: orangered;
+}
+.category:hover .category__list{
+    opacity: 1;
+}
+.category__list{
+    transition: all 0.5s ease;
+    position: absolute;
+    top:50px;
+    left: 100px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    z-index: 10;
+    opacity: 0;
+    width: 70vw;
+    height:250px;
+}
+.category__item{
+    text-align: center;
+    background-color: rgb(227, 217, 217);
+    border-radius: 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+    color: white;
+}
+
+.category__item:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 5;
+}
+.category__item__top{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-size: 24px;
+}
+.category__item__bottom{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: white;
+    border-radius:0 0 10px 10px;
+}
+
 .filter{
     background-color: #fff;
 }
