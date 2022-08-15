@@ -28,6 +28,8 @@
     
     
 
+
+    <link rel="stylesheet" href="./index.css" />
   </head>
 
   <body>
@@ -35,109 +37,213 @@
       <div class="col-3 left">
         <div class="d-flex flex-column justify-content-between">
           <div class="category p-4 mb-2">category</div>
-          <div class="filter p-4 mt-2">
-            
-          
-
-          
-            <h1><strong>Bộ Lọc</strong></h1>
-              <p><strong>Sắp xếp</strong></p>
-           
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <label class="form-check-label" for="exampleRadios1">
-                 Giá cao đến thấp
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                <label class="form-check-label" for="exampleRadios2">
-                  Giá thấp đến cao
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
-                <label class="form-check-label" for="exampleRadios3">
-                  Từ A-Z
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <label class="form-check-label" for="exampleRadios1">
-                  Từ Z-A
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                <label class="form-check-label" for="exampleRadios2">
-                  Khuyến mãi nhiều nhất
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
-                <label class="form-check-label" for="exampleRadios3">
-                  Khuyến mãi ít nhất
-                </label>
+          <div class="filter ">
+            <div class="bl">
+              <p>Bộ Lọc</p>
+            </div>
+            <div class="sx">
+              <p>Sắp Xếp</p>
+              <div>
+                <input type="radio" class="radio-title" name="drone" value="Giá Cao Đến Thấp"
+                    checked/>
+                <label >Giá Cao Đến Thấp</label>
               </div>
               <div>
-                <p><strong>Loại hình</strong></p>
-             
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <label class="form-check-label" for="exampleRadios1">
-                 Tất cả
-                </label>
+                  <input type="radio" class="radio-title" name="drone" value="Giá Thấp Đến Cao"/>
+                  <label >Giá Thấp Đến Cao</label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-                <label class="form-check-label" for="exampleRadios2">
-                  Bán chạy
-                </label>
+              <div>
+                  <input type="radio" class="radio-title" name="drone" value="Từ A-Z">
+                  <label >Từ A-Z</label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" >
-                <label class="form-check-label" for="exampleRadios3">
-                  GIảm sâu Friends
-                </label>
+              <div>
+                  <input type="radio" class="radio-title" name="drone" value="Từ Z-A">
+                  <label >Từ Z-A</label>
               </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                <label class="form-check-label" for="exampleRadios1">
-                  Siêu HOt
-                </label>
-              
+              <div>
+                  <input type="radio" id="radio-title " name="drone" value="Khuyến Mãi Nhiều Nhất">
+                  <label >Khuyến Mãi Nhiều Nhất</label>
               </div>
-          
-        
-            <p><strong>Đánh giá</strong></p>
-
-             
+              <div>
+                  <input type="radio" class="radio-title" name="drone" value="Khuyến Mãi Ít Nhất">
+                  <label >Khuyến Mãi Ít Nhất</label>
+              </div>
+            </div>
+            <div class="lh sx">
+              <p>Loại Hình</p>
+              <div>
+                <input type="radio" class="radio-title" name="drone1" value="Giá Cao Đến Thấp"
+                    checked/>
+                <label >Tất Cả</label>
+              </div>
+              <div>
+                  <input type="radio" class="radio-title" name="drone1" value="Giá Thấp Đến Cao"/>
+                  <label >Bán Chạy</label>
+              </div>
+              <div>
+                  <input type="radio" class="radio-title" name="drone1" value="Từ A-Z">
+                  <label >Giảm sâu Friends</label>
+              </div>
+              <div>
+                  <input type="radio" class="radio-title" name="drone1" value="Từ Z-A">
+                  <label >Siêu Hot</label>
+              </div>
+            </div>  
+             <div class="dg sx">
+              <p>Đánh Giá</p>
               <div class="ratings">
                 <i class="fa fa-star rating-color"></i>
                 <i class="fa fa-star rating-color"></i>
                 <i class="fa fa-star rating-color"></i>
                 <i class="fa fa-star rating-color"></i>
                 <i class="fa fa-star"></i>
+             </div>
+        <div class="kg sx">
+          <p>Khoảng Giá</p>
+          <div class="range-slide">
+            <div class="slide">
+              <div class="line" id="line" style="left: 0%; right: 0%;"></div>
+              <span class="thumb" id="thumbMin" style="left: 0%;"></span>
+              <span class="thumb" id="thumbMax" style="left: 100%;"></span>
             </div>
-            
-            
-            </div>
-            <p><strong>Khoảng Giá</strong></p>
-            <div class="range-slide">
-              <div class="slide">
-                <div class="line" id="line" style="left: 0%; right: 0%;"></div>
-                <span class="thumb" id="thumbMin" style="left: 0%;"></span>
-                <span class="thumb" id="thumbMax" style="left: 100%;"></span>
-              </div>
-              <input id="rangeMin" type="range" max="100" min="10" step="5" value="0">
-              <input id="rangeMax" type="range" max="100" min="10" step="5" value="100">
-            </div>
-            <div class="display">
-              <span id="min">10</span>
-              <span id="max">100</span>
-            </div>
-        
+            <input id="rangeMin" type="range" max="100" min="10" step="5" value="0">
+            <input id="rangeMax" type="range" max="100" min="10" step="5" value="100">
           </div>
+          <div class="display">
+            <span id="min">10</span>
+            <span id="max">100</span>
+          </div>  
+        </div>
+          
+
+          <!-- <div class="category p-2 mb-2 bg-white">
+            <div class="d-flex category__btn justify-content-center">
+              <i class="fa-solid fa-copy mr-1"></i>
+              <p>Danh mục</p>
+            </div>
+            <div class="category__list row">
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Thời trang</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Điện thoại</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Điện tử</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Đồng hồ</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Giày dép</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Ô tô/Xe máy</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Sắc đẹp</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Sức khỏe</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Nhà cửa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Bách hóa</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Trang sức</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-2 p-2">
+                <div class="category__item">
+                  <div class="category__item__top">
+                    <i class="fa-solid fa-user-astronaut"></i>
+                  </div>
+                  <div class="category__item__bottom">
+                    <p>Sách</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
         </div>
       </div>
       <div class="col-9 right">
