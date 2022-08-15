@@ -68,25 +68,3 @@ let renderSp = (array) => {
 
 renderSp(data);
 let dataSearch = [];
-
-// let timTenSP = () => {
-//   inputValue = document.getElementById("input").value.trim();
-//   for (let index = 0; index < data.length; index++) {
-//     const sp = data[index];
-//     if (sp.tenSP.toLowerCase() === inputValue.toLowerCase()) {
-//       dataSearch.push(sp);
-//     }
-//   }
-//   renderSp(dataSearch);
-// };
-
-// let timTenSP = () => {
-//   let inputValue = document.getElementById("input").value.trim().toLowerCase();
-//   let dssp = document.getElementById("renderDssp");
-//   let item_sp = dssp.getElementsByClassName("item_sp");
-//   for (let index = 0; index < item_sp.length; index++) {
-//     if (item_sp[index].tenSP.toLowerCase().indexOf(inputValue) > -1) {
-//       item_sp[index].style.display = "";
-//     } else item_sp[index].style.display = "none";
-//   }
-// };
