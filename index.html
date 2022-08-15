@@ -23,8 +23,17 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
     <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
+
   <body>
     <div class="main row p-3">
       <div class="col-3 left">
@@ -157,7 +166,177 @@
               </div>
             </div>
           </div>
-          <div class="filter p-4 mt-2">filter</div>
+          <div class="filter p-4 mt-2">
+            <h1><strong>Bộ Lọc</strong></h1>
+            <p><strong>Sắp xếp</strong></p>
+
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Giá cao đến thấp
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios2"
+                value="option2"
+              />
+              <label class="form-check-label" for="exampleRadios2">
+                Giá thấp đến cao
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios3"
+                value="option3"
+              />
+              <label class="form-check-label" for="exampleRadios3">
+                Từ A-Z
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios1"
+                value="option1"
+                checked
+              />
+              <label class="form-check-label" for="exampleRadios1">
+                Từ Z-A
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios2"
+                value="option2"
+              />
+              <label class="form-check-label" for="exampleRadios2">
+                Khuyến mãi nhiều nhất
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="exampleRadios"
+                id="exampleRadios3"
+                value="option3"
+              />
+              <label class="form-check-label" for="exampleRadios3">
+                Khuyến mãi ít nhất
+              </label>
+            </div>
+            <div>
+              <p><strong>Loại hình</strong></p>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="exampleRadios1"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="exampleRadios1">
+                  Tất cả
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="exampleRadios2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="exampleRadios2">
+                  Bán chạy
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="exampleRadios3"
+                  value="option3"
+                />
+                <label class="form-check-label" for="exampleRadios3">
+                  GIảm sâu Friends
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="exampleRadios"
+                  id="exampleRadios1"
+                  value="option1"
+                  checked
+                />
+                <label class="form-check-label" for="exampleRadios1">
+                  Siêu HOt
+                </label>
+              </div>
+
+              <p><strong>Đánh giá</strong></p>
+
+              <div class="ratings">
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star rating-color"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+            <p><strong>Khoảng Giá</strong></p>
+            <div class="range-slide">
+              <div class="slide">
+                <div class="line" id="line" style="left: 0%; right: 0%"></div>
+                <span class="thumb" id="thumbMin" style="left: 0%"></span>
+                <span class="thumb" id="thumbMax" style="left: 100%"></span>
+              </div>
+              <input
+                id="rangeMin"
+                type="range"
+                max="100"
+                min="10"
+                step="5"
+                value="0"
+              />
+              <input
+                id="rangeMax"
+                type="range"
+                max="100"
+                min="10"
+                step="5"
+                value="100"
+              />
+            </div>
+            <div class="display">
+              <span id="min">10</span>
+              <span id="max">100</span>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-9 right">
